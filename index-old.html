@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>USG Elections | The Daily Princetonian</title>
+    <meta name="description" content="Meet the candidates running for Princeton Undergraduate Student Government and learn about their platforms.">
+
+    <meta property="og:url" content="https://projects.dailyprincetonian.com/usg-elections">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Meet the Candidates | USG Elections">
+    <meta property="og:description" content="Get to know the candidates running for Princeton Undergraduate Student Government.">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png"
+          href="https://dirgyzwl2hnqq.cloudfront.net/ff9419fb986f760c1b0b24d4b9046051/dist/img/favicons/apple-icon-57x57.png">
+
+    <!-- Daily Princetonian fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kha5kwj.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mhl8zjo.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/static.getsnworks.com/fontawesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    <script src="navbar.js" defer></script>
+</head>
+
+<body>
+    <nav id="top-nav">
+        <i class="fas fa-bars" id="menu-icon" aria-label="Toggle navigation"></i>
+
+        <div id="left-top-nav">
+            <a href="https://dailyprincetonian.com">
+                <img id="logo"
+                    alt="The Daily Princetonian logo"
+                    src="https://dirgyzwl2hnqq.cloudfront.net/8ab5ccf6483af37484451354a9d9e4e3/dist/img/prince_logo_scrolled.png">
+            </a>
+
+            <div class="project-name">
+                <a href="#top">&ensp;|&ensp;USG Elections</a>
+            </div>
+        </div>
+
+        <div id="nav-links">
+            <a href="#president">President</a>
+            <a href="#executive">Executive Board</a>
+            <a href="#senate">Senate</a>
+        </div>
+    </nav>
+
+    <main id="top">
+        <header class="intro">
+            <p class="eyebrow">The Candidate Guide · 2026</p>
+            <h1>Who should represent you?</h1>
+            <p class="dek">
+                Meet the students running for Undergraduate Student Government.
+                Explore their priorities, experience, and plans for Princeton.
+            </p>
+            <div class="accent-rule"></div>
+            <p class="intro-note">
+                Click on a candidate to read their full statement.
+            </p>
+        </header>
+
+        <section class="candidate-section" id="president">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">The candidates</p>
+                    <h2>President</h2>
+                </div>
+                <p class="section-description">Candidates for USG president</p>
+            </div>
+            <div class="candidate-grid" id="president-grid"></div>
+        </section>
+
+        <section class="candidate-section" id="executive">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">The candidates</p>
+                    <h2>Executive Board</h2>
+                </div>
+                <p class="section-description">Candidates for executive positions</p>
+            </div>
+            <div class="candidate-grid" id="executive-grid"></div>
+        </section>
+
+        <section class="candidate-section" id="senate">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">The candidates</p>
+                    <h2>Senate</h2>
+                </div>
+                <p class="section-description">Candidates representing the student body</p>
+            </div>
+            <div class="candidate-grid" id="senate-grid"></div>
+        </section>
+
+        <p class="editorial-note">
+            Candidate names, statements, and photos are placeholders.
+            All information should be verified before publication.
+        </p>
+    </main>
+
+    <footer class="site-footer">
+        <span>The Daily Princetonian</span>
+        <span>USG Elections · 2026</span>
+    </footer>
+
+    <!-- Candidate details modal -->
+    <dialog id="candidate-dialog" class="candidate-dialog"
+            aria-labelledby="dialog-name">
+        <button class="dialog-close" type="button"
+                aria-label="Close candidate details">&times;</button>
+
+        <div class="dialog-photo photo-placeholder" aria-hidden="true"></div>
+
+        <div class="dialog-content">
+            <p class="eyebrow" id="dialog-role"></p>
+            <h2 id="dialog-name"></h2>
+            <p class="dialog-tagline" id="dialog-tagline"></p>
+
+            <div class="accent-rule"></div>
+
+            <h3>Candidate Statement</h3>
+            <div class="dialog-bio" id="dialog-bio"></div>
+
+            <h3>Priorities</h3>
+            <ul id="dialog-priorities" class="priority-list"></ul>
+        </div>
+    </dialog>
+</body>
+</html>

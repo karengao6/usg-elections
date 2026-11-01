@@ -6,8 +6,18 @@ function updateHamburger() {
 }
 function expand() {
     const topNav = document.getElementById('top-nav');
-    topNav.classList.toggle('expand');
+    const menuIcon = document.getElementById('menu-icon');
+    const isExpanded = topNav.classList.toggle('expand');
+    menuIcon.setAttribute('aria-expanded', String(isExpanded));
 }
 window.addEventListener("resize", updateHamburger);
 const menuIcon = document.getElementById("menu-icon");
 if (menuIcon) menuIcon.addEventListener("click", expand);
+document.querySelectorAll('#nav-links a').forEach((link) => {
+    link.addEventListener('click', () => {
+        const topNav = document.getElementById('top-nav');
+        const menuIcon = document.getElementById('menu-icon');
+        topNav.classList.remove('expand');
+        menuIcon.setAttribute('aria-expanded', 'false');
+    });
+});

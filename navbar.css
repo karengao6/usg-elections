@@ -13,7 +13,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.5rem 1.25rem;
+    padding: 0.75rem 1.25rem;
     background-color: white;
     box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid #666;
@@ -36,18 +36,20 @@ body {
     font-family: franklin-gothic-urw, "Franklin Gothic Book", sans-serif;
     font-weight: 500;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 #nav-links {
     display: flex;
+    align-items: center;
     transition: height ease-in 200ms;
     gap: 30px;
 }
 
 #nav-links a {
     font-family: sofia-pro, "Sofia Pro", sans-serif;
-    font-size: 12pt;
-    margin-left: 16px;
+    font-size: 16px;
+    /* font-weight: 700; */
     color: black;
     text-decoration: none;
 }
@@ -61,18 +63,19 @@ body {
     display: none;
     cursor: pointer;
     font-weight: 900;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    background: transparent;
 }
 
 #nav-links a {
     display: block;
 }
 
-#nav-links a:last-child {
-    margin-bottom: 0.5rem;
-}
-
 #top-nav.expand #nav-links {
-    height: 300px;
+    height: auto;
+    padding: 0.75rem 0;
 }
 
 article {
@@ -117,5 +120,6 @@ article {
         flex-direction: column;
         gap: 10px;
         justify-content: center;
+        transition: height ease-in 200ms, padding ease-in 200ms;
     }
 }
