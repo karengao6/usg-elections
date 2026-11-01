@@ -115,7 +115,7 @@ img {
   background:
     linear-gradient(to bottom, #ede3df 0, rgb(237 227 223 / 0%) 220px),
     linear-gradient(rgb(242 141 101 / 40%), rgb(242 141 101 / 40%)),
-    url('/assets/9ade0.png') center / cover no-repeat;
+    url('/assets/Nassau_Hall.jpg') center 60% / cover no-repeat;
 }
 
 .hero-kicker,
@@ -389,6 +389,13 @@ img {
   margin-top: 24px;
   font-family: 'Lora:Bold', Georgia, serif;
   font-size: 30px;
+}
+
+#credits-list {
+  margin-top: 24px;
+  padding-left: 20px;
+  font-family: 'Lora:Regular', Georgia, serif;
+  font-size: 20px;
 }
 
 .credits p {
