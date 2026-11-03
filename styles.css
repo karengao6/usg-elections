@@ -518,6 +518,44 @@ img {
   line-height: 1.55;
 }
 
+.legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap:4px;
+    margin-top:4px
+}
+
+.legend-icon{
+    display: grid;
+    place-items: center;
+    width:24px;
+    height:24px;
+    border: 3px solid;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.legend-icon img{
+    width: 13px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.legend-icon.is-endorsed {
+    border-color: #38962e;
+}
+
+.legend-icon.is-not-endorsed {
+    border-color: #c40000; 
+}
+
 @media (max-width: 1000px) {
   .candidate-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
