@@ -218,22 +218,16 @@ img {
 }
 
 .candidate-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 18px;
 }
 
-.position-placeholder {
-  grid-column: 1 / -1;
-  border: 1px dashed #a94f35;
-  padding: 32px 20px;
-  color: #666;
-  font-family: 'Lora:Regular', Georgia, serif;
-  font-size: 18px;
-  text-align: center;
-}
-
 .candidate-card {
+  flex: 0 0 auto;
+  width:220px;
+  max-width: 100%;
   display: flex;
   min-height: 552px;
   flex-direction: column;
@@ -559,10 +553,6 @@ img {
 }
 
 @media (max-width: 1000px) {
-  .candidate-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .hero {
     height: 680px;
   }
@@ -597,10 +587,6 @@ img {
 
   .section-heading h2 {
     font-size: 40px;
-  }
-
-  .candidate-grid {
-    grid-template-columns: 1fr;
   }
 
   .candidate-card {
