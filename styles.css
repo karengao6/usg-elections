@@ -294,7 +294,7 @@ img {
 }
 
 .status-mark.not-endorsed {
-  border-color: #c40000;
+  border-color: #808080;
 }
 
 .status-symbol {
@@ -566,7 +566,7 @@ img {
 }
 
 .legend-icon.is-not-endorsed {
-    border-color: #c40000; 
+    border-color: #808080;
 }
 
 @media (max-width: 1000px) {
