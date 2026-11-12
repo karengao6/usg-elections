@@ -10,6 +10,7 @@ const presidentCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec4lfrw0Nh1eohHa',
     endorsed: true,
   },
   {
@@ -23,6 +24,7 @@ const presidentCandidates = [
     background: '<background for the SPIA junior candidate>',
     proposals: '<proposals from the SPIA junior candidate>',
     progress: '<progress measures from the SPIA junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recyFOfg0bJrd1fUf',
     endorsed: false,
   },
 ]
@@ -39,6 +41,7 @@ const vicePresidentCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recvpOe49iU1cw2VI',
     endorsed: true,
   },
   {
@@ -52,6 +55,7 @@ const vicePresidentCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recqU7fju3aYuQJ4r',
     endorsed: true,
   },
 ]
@@ -68,6 +72,7 @@ const treasurerCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recskphewfJnbOQNr',
     endorsed: true,
   },
   {
@@ -81,6 +86,7 @@ const treasurerCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recWWDSMbWrVdtZam',
     endorsed: true,
   },
 ]
@@ -97,6 +103,7 @@ const studentLifeCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recmKR3z8HfSvcmDn',
     endorsed: true,
   },
   {
@@ -110,6 +117,7 @@ const studentLifeCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recDoYMCPseoMtwk0',
     endorsed: true,
   },
 ]
@@ -126,6 +134,7 @@ const sustainabilityCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recWcvFriNV9BnhyO',
     endorsed: true,
   },
   {
@@ -139,6 +148,7 @@ const sustainabilityCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/reccxrru8to0RZeDu',
     endorsed: true,
   },
   {
@@ -152,6 +162,7 @@ const sustainabilityCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recQKUIiDHRRMbnUQ',
     endorsed: true,
   },
 ]
@@ -168,6 +179,7 @@ const deiCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recub8BBn2GaVT0mQ',
     endorsed: true,
   },
   {
@@ -181,6 +193,7 @@ const deiCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recPezrP1qKHs3ie2',
     endorsed: true,
   },
 ]
@@ -197,6 +210,7 @@ const mentalHealthCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recenZaNFTULaP2ol',
     endorsed: true,
   },
   {
@@ -210,6 +224,7 @@ const mentalHealthCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recF6LAGJ35ozDCLt',
     endorsed: true,
   },
   {
@@ -223,6 +238,7 @@ const mentalHealthCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recfqBHrzac4c73Hd',
     endorsed: true,
   },
 ]
@@ -239,6 +255,7 @@ const senate2028Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recq3DcLgaVENwlom',
     endorsed: true,
   },
   {
@@ -252,6 +269,7 @@ const senate2028Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recVenKNGGJWwGc4G',
     endorsed: true,
   },
   {
@@ -265,6 +283,7 @@ const senate2028Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recS8JA7h3tWxx9xI',
     endorsed: true,
   }
 ]
@@ -281,6 +300,7 @@ const senate2029Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recGEdk2WLp5Npvxz',
     endorsed: true,
   },
   {
@@ -294,6 +314,7 @@ const senate2029Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recZidIkRgdvgSb26',
     endorsed: true,
   },
   {
@@ -307,6 +328,7 @@ const senate2029Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec9xzDlgkI9uyzQe',
     endorsed: true,
   },
 ]
@@ -323,6 +345,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec4XepwKQ8UliZo8',
     endorsed: true,
   },
   {
@@ -336,6 +359,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recLMYv4inG9dJcSl',
     endorsed: true,
   },
   {
@@ -349,6 +373,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recZqp9mY0UhxQcHt',
     endorsed: true,
   },
   {
@@ -362,6 +387,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/reczpXmkxBqY0eTKk',
     endorsed: true,
   },
   {
@@ -375,6 +401,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recwItLapjcClxCrW',
     endorsed: true,
   },
   {
@@ -388,6 +415,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recKjrumAeOhwfsWp',
     endorsed: true,
   },
   {
@@ -401,6 +429,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recnRM9PsbdY9cfWI',
     endorsed: true,
   },
   {
@@ -414,6 +443,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recGQBhRZiChxrmZC',
     endorsed: true,
   },
   {
@@ -427,6 +457,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recyUAMZMlj9Nl8bg',
     endorsed: true,
   },
   {
@@ -440,6 +471,7 @@ const senate2030Candidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recQMsufAbQ7jgRJA',
     endorsed: true,
   },
 ]
@@ -456,6 +488,7 @@ const academicsCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec0rqnepJfP1Ag48',
     endorsed: true,
   },
 ]
@@ -472,6 +505,7 @@ const socialCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recf9kEwJM3nszd7C',
     endorsed: true,
   },
 ]
@@ -488,6 +522,7 @@ const campusCommunityCandidates = [
     background: '<background for the English junior candidate>',
     proposals: '<proposals from the English junior candidate>',
     progress: '<progress measures from the English junior candidate>',
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec50Sxj10jX5mmuD',
     endorsed: true,
   },
 ]
@@ -570,7 +605,7 @@ function openProfile(candidate, trigger) {
   setProfileText('#profile-title', candidate.name)
   setProfileText('#profile-category', `${candidate.position} / CANDIDATE PROFILE`)
   setProfileText('#profile-study', `${candidate.year}, ${candidate.major}`)
-  setProfileText('#profile-experience', `<experience for candidate ${candidate.id}>`)
+  document.querySelector('#profile-candidate-statement').href = candidate.statement
   setProfileText('#profile-summary', candidate.summary)
   setProfileText('#profile-background', candidate.background)
   setProfileText('#profile-proposals', candidate.proposals)

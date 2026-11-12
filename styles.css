@@ -406,7 +406,6 @@ img {
   padding-bottom: 64px;
   font-family: 'Lora:Regular', Georgia, serif;
   font-size: 20px;
-  font-style: italic;
   font-synthesis: style;
   line-height: 1.55;
 }
@@ -511,6 +510,13 @@ img {
   margin-top: 7px;
   font-family: 'Arimo:Regular', Arial, sans-serif;
   font-size: 15px;
+}
+
+.candidate-background a {
+  color: #a94f35;
+  font-family: 'Arimo:Regular', Arial, sans-serif;
+  font-size: 15px;
+  text-underline-offset: 3px;
 }
 
 .profile-blurb {
