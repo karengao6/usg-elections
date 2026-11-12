@@ -267,6 +267,8 @@ img {
   flex: 0 0 auto;
   border-radius: 999px;
   background: #dddad4;
+  background-size: cover;
+  background-position: center;
 }
 
 .portrait-large {
@@ -391,8 +393,8 @@ img {
   font-size: 30px;
 }
 
-#credits-list {
-  margin-top: 24px;
+.credits-list {
+  margin-top: 5px;
   padding-left: 20px;
   font-family: 'Lora:Regular', Georgia, serif;
   font-size: 20px;
