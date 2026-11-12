@@ -400,6 +400,23 @@ img {
   font-size: 20px;
 }
 
+.editorial-note {
+  width: min(700px, calc(100% - 48px));
+  margin: 0 auto;
+  padding-bottom: 64px;
+  font-family: 'Lora:Regular', Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-synthesis: style;
+  line-height: 1.55;
+}
+
+.editorial-note a {
+  color: #a94f35;
+  font: inherit;
+  text-underline-offset: 3px;
+}
+
 .profile-modal {
   position: fixed;
   z-index: 50;

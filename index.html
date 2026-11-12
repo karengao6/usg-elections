@@ -32,9 +32,27 @@
         </div>
       </div>
       <div id="nav-links">
-        <a href="#president">President</a>
-        <a href="#executive">Executive Board</a>
-        <a href="#senate">Senate</a>
+        <div class="nav-dropdown" id="candidates-dropdown">
+          <button id="candidates-toggle" type="button" aria-expanded="false" aria-controls="candidates-menu">
+            Candidates <span class="dropdown-chevron" aria-hidden="true">▾</span>
+          </button>
+          <div id="candidates-menu" hidden>
+            <a href="#president">President</a>
+            <a href="#vice-president">Vice President</a>
+            <a href="#treasurer">Treasurer</a>
+            <a href="#student-life">Undergraduate Student Life Committee Chair</a>
+            <a href="#sustainability">Sustainability Committee Chair</a>
+            <a href="#dei">Diversity, Equity, and Inclusion Committee</a>
+            <a href="#mental-health">Mental Health Committee Chair</a>
+            <a href="#senator-2028">Class of 2028 Senator</a>
+            <a href="#senator-2029">Class of 2029 Senator</a>
+            <a href="#senator-2030">Class of 2030 Senator</a>
+            <a href="#academics">Academics Chair</a>
+            <a href="#social">Social Committee Chair</a>
+            <a href="#campus-community">Campus &amp; Community Affairs Committee</a>
+          </div>
+        </div>
+        <a href="#credits">Credits</a>
       </div>
     </nav>
 
@@ -307,16 +325,23 @@
 
         <section class="credits">
           <img src="/assets/b5910.svg" alt="" />
-          <h2>Credits</h2>
-          <h3><strong>Web Design & Development:</strong></h3>
+          <h2 id="credits">Credits</h2>
+
+          <h3><strong>Editorial (The Daily Princetonian Editorial Board):</strong></h3>
           <ul class="credits-list">
-            <li>Karen Gao</li>
-            <li>Sky Stubbeman</li>
+            <li>Christopher Bao ’28, Chair</li>
+            <li>Raf Basas ’28</li>
+            <li>Juan Fajardo ’28</li>
+            <li>Lily Halbert-Alexander ’28</li>
+            <li>Siyeon Lee ’27</li>
+            <li>Maya Mukherjee ’27</li>
+            <li>Ian Rosenzweig ’29</li>
           </ul>
 
-          <h3><strong>Editorial:</strong></h3>
+          <h3><strong>Web Design & Development:</strong></h3>
           <ul class="credits-list">
-            <li>The Daily Princetonian Editorial Board</li>
+            <li>Karen Gao ’29, Lead</li>
+            <li>Sky Stubbeman ’29</li>
           </ul>
 
           <h3><strong>Website inspiration:</strong></h3>
@@ -325,6 +350,15 @@
           </ul>
           <!-- <p>&lt;credits&gt;</p> -->
           <img src="/assets/b5910.svg" alt="" />
+        </section>
+
+        <section class="editorial-note">
+          <p>
+            <i>
+            <a href="https://www.dailyprincetonian.com/article/2026/02/princeton-opinion-ed-board-introduction-150-institutional-voice">The 150th Editorial Board</a>
+              is an institutional voice of The Daily Princetonian and consists of seven members. It convenes on a regular basis to discuss issues and current events of interest to the Princeton University community, as well as collectively write signed editorials addressing them, which reflect the consensus of a majority of the Board’s membership. To ensure independence, the Board works separately from the newsroom of the ‘Prince,’ and its members do not cover the topics of their editorials in that capacity for the paper.
+            </i>
+          </p>
         </section>
       </main>
     </div>

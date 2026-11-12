@@ -46,7 +46,8 @@ body {
     gap: 30px;
 }
 
-#nav-links a {
+#nav-links a,
+#candidates-toggle {
     font-family: sofia-pro, "Sofia Pro", sans-serif;
     font-size: 16px;
     /* font-weight: 700; */
@@ -54,7 +55,8 @@ body {
     text-decoration: none;
 }
 
-#nav-links a:hover {
+#nav-links a:hover,
+#candidates-toggle:hover {
     color: #f15a24;
     transition: color 0.2s;
 }
@@ -121,5 +123,80 @@ article {
         gap: 10px;
         justify-content: center;
         transition: height ease-in 200ms, padding ease-in 200ms;
+    }
+}
+.nav-dropdown {
+    position: relative;
+}
+
+#candidates-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+#nav-links a:focus-visible,
+#candidates-toggle:focus-visible {
+    outline: 2px solid #f15a24;
+    outline-offset: 3px;
+}
+
+#candidates-toggle[aria-expanded="true"] .dropdown-chevron {
+    transform: rotate(180deg);
+}
+
+#candidates-menu[hidden] {
+    display: none;
+}
+
+#candidates-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    width: min(340px, calc(100vw - 32px));
+    max-height: calc(100dvh - 80px);
+    overflow-y: auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 15%);
+}
+
+#candidates-menu a {
+    padding: 8px 12px;
+    line-height: 1.35;
+}
+
+#candidates-menu a:hover,
+#candidates-menu a:focus-visible {
+    background: #f7f3f1;
+}
+
+@media screen and (max-width: 600px) {
+    #top-nav.expand #nav-links {
+        max-height: calc(100dvh - 48px);
+        overflow-y: auto;
+        justify-content: flex-start;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-dropdown {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #candidates-menu {
+        position: static;
+        margin-top: 10px;
+        max-height: none;
+        box-sizing: border-box;
+        text-align: left;
+        box-shadow: none;
     }
 }
