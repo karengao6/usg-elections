@@ -5,7 +5,6 @@ const presidentCandidates = [
     position: 'USG PRESIDENT',
     photo: 'photos/marvel-jem-roth.jpeg',
     year: '2028',
-    major: 'ECO',
     summary: 'Roth’s policy platform responds well to timely issues. Her plans to extend NJ Transit ticket discounts and establish universal menstrual product access are tangible goals that benefit a large proportion of the student body. Her proposals show a commitment to challenging the University in the wake of unpopular policies that have engendered widespread student dissatisfaction.\u00a0',
     profileParagraphs: [
       `Roth began her time in USG serving on the Campus and Community Affairs committee. She conceptualized the discounted NJ Transit ticket pilot program alongside her running mate Vivian Chang ’28. This month, she <a href="https://www.dailyprincetonian.com/article/2026/11/princeton-news-stlife-usg-senate-approves-free-nj-transit-tickets-students-nyc-trenton">sponsored</a> a resolution dramatically expanding NJ Transit pilot’s scope, providing 600 free tickets.&#xA0;`,
@@ -25,7 +24,6 @@ const presidentCandidates = [
     position: 'USG PRESIDENT',
     photo: '/photos/isaac-bernstein.jpg',
     year: '2028',
-    major: 'POL',
     summary: 'Bernstein, the current Academics Chair, has policy proposals that are diverse and commendable. He correctly identifies a gap in the Honor Committee and Committee on Discipline’s evidentiary standards. In an interview with the Editorial Board, Bernstein said that he plans to implement “FSI-like” activities to help students feel supported. We admire this focus on community-building and mentorship. However, we are concerned that Bernstein’s platform focuses on niche issues that are not pressing or relevant to wide swathes of campus.',
     profileParagraphs: [
       `Bernstein is a former staff News writer for the ‘Prince.’`,
@@ -48,7 +46,6 @@ const vicePresidentCandidates = [
     position: 'USG VICE PRESIDENT',
     photo: '/photos/vivian-chang.jpeg',
     year: '2028',
-    major: 'ECO',
     summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
     profileParagraphs: [
       `Chang’s understanding of relationship building will particularly complement Roth’s assertive approach.`,
@@ -63,7 +60,6 @@ const vicePresidentCandidates = [
     position: 'USG VICE PRESIDENT',
     photo: '/photos/malcom-tafadzwa-dzimiri.jpg',
     year: '2028',
-    major: 'CBE',
     summary: 'Dzimiri was previously a U-councilor on the CPUC committee as well as the Athletics Senate Initiative Chair. In an interview with the Editorial Board, Dzimiri emphasized increased transparency between USG and the student body. He envisions a policy of open houses and direct-to-student communication.',
     profileParagraphs: [
       `While Dzimiri is correct that USG hasn’t always been transparent about its decision-making, we believe he has mistaken low transparency between USG and students as the cause of low voter turnout. Learning about the inner workings of USG is unlikely to reverse students’ apathy. Dzimiri’s particular focus on this issue is misplaced.`,
@@ -82,7 +78,6 @@ const treasurerCandidates = [
     position: 'USG TREASURER',
     photo: '/photos/emi-ren.JPG',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Ren’s platform highlights an important commitment to improving student involvement in the funding process. Especially given the current surplus of funds in USG, it’s important that the treasurer has a plan for disbursing money to student groups. We believe that, in particular, her focus on incorporating student voices into the funding allocation process will make sure that the USG budget can work for students. Ren wrote to the ‘Prince’ that she wanted to create “a clear set of guidelines sent to student leaders in advance so they understand why USG chooses to or chooses not to fund their projects.” Additionally, she accurately identifies that the USG can and should play a role in improving student quality of life amidst budget cuts. Though we felt that some of her proposals, like including weekly expenditures in USG newsletters, may be redundant, her policies impressed us overall. Previous elected members of USG spoke highly of her judiciousness and commitment to accountability.',
     profileParagraphs: [
       `Ren’s past record also stands out. A notable failure was the Class of 2029 secretary and Class of 2028 social chair election having to be <a href="https://www.dailyprincetonian.com/article/2026/04/princeton-news-adpol-ucouncilors-elected-class-council-spring-student-government">rerun</a> under her tenure. However, we were impressed by her ability later in her term to make uncompromising, difficult <a href="https://www.dailyprincetonian.com/article/2026/10/princeton-news-stlife-usg-votes-freshman-election-appeal-disqualify-budget-resolutions-student-organizations">decisions</a>. We hope she will bring the same attention to detail if elected as treasurer.`,
@@ -98,7 +93,6 @@ const treasurerCandidates = [
     photo: '/photos/joey-darbilli.jpg',
     photoPosition: 'center 20%',
     year: '2028',
-    major: 'ORF',
     summary: 'Darbilli responded to the Board’s request for comment a day after the deadline. His responses to the Board’s comments did not contain concrete policies nor demonstrate a meaningful understanding of the current role. Overall, we are unconvinced that he is qualified to be USG Treasurer.',
     profileParagraphs: [],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recWWDSMbWrVdtZam',
@@ -114,7 +108,6 @@ const studentLifeCandidates = [
     photo: '/photos/alpha-zhang.jpg',
     photoPosition: 'center 30%',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Zhang’s candidate statement emphasized initiatives like umbrella sharing that have already been underway, rather than suggest new and meaningful propositions.',
     profileParagraphs: [],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recmKR3z8HfSvcmDn',
@@ -126,7 +119,6 @@ const studentLifeCandidates = [
     position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
     photo: '/photos/emily-chen.jpeg',
     year: '2028',
-    major: 'MOL',
     summary: 'Chen’s proposals demonstrate a willingness to stand up to the University, which is particularly relevant in a moment where the University has passed unpopular policies. That said, her policies did not show a strong understanding of what the USLC role entails. She proposed policies that were unlikely to be under the purview of the committee, such as organizing student protests.',
     profileParagraphs: [],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recDoYMCPseoMtwk0',
@@ -141,7 +133,6 @@ const sustainabilityCandidates = [
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
     photo: '/photos/joshua-knapp.jpeg',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'The Editorial Board endorses Joshua Knapp ’30 for Sustainability Committee Chair.',
     profileParagraphs: [
       `We believe that Knapp outlines a plan to partner with various existing campus organizations to make meaningful, actionable strides in sustainability goals. His partnership suggestions range from student-focused to wide-reaching. He proposes working with EcoReps to support the launch of a student-run clothing resale closet. Knapp also wants to collaborate with Campus Dining and local organizations to ensure surplus food from dining halls, for example, is redirected to community members. We think he balances individual incentives for sustainability — like energy conservation competitions — with more sweeping partnerships designed for substantial change.`,
@@ -155,7 +146,6 @@ const sustainabilityCandidates = [
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
     profileParagraphs: [
       `However, we think that some of her policies are unlikely to be an effective use of the Sustainability Committee’s time. For instance, she lists a priority as “advocating for construction of affordable housing for current commuting staff on Butler Tract,” which, while admirable, strikes the Board as less actionable than the sustainability policies proposed by her opponents.`,
@@ -169,7 +159,6 @@ const sustainabilityCandidates = [
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
     photo: '/photos/ethan-albright.JPG',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'We are impressed by Albright’s clear policy ideas and passion for climate activism. We feel that his policy platform, while well-developed, is more narrow than Knapp’s and therefore a less comprehensive vision for the Sustainability Committee Chair role. For example, while Albright discusses opportunities for collaboration with the existing campus sustainability framework, he does not attach specific policy initiatives to many of these collaboration efforts.',
     profileParagraphs: [
       `While he is a strong candidate, we believe that Knapp has a slight edge.`,
@@ -186,7 +175,6 @@ const deiCandidates = [
     position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
     photo: '/photos/angela-li.jpg',
     year: '2028',
-    major: 'POL',
     summary: 'The Editorial Board endorses Angela Li ’28 for Diversity, Equity and Inclusion Committee Chair.',
     profileParagraphs: [
       `Li currently serves as an active member of the DEI committee. On her platform, she lists a number of well-developed policies that would further her commitments to advocate for international students and make campus dining more inclusive to religious and cultural groups. She also expresses commitments to collaborating with affinity groups and seeking student input.`,
@@ -201,7 +189,6 @@ const deiCandidates = [
     position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
     photo: '/photos/nastasia-philip.jpg',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Philip’s platform and experience are similar to Li’s, focusing on menstrual product availability and inclusivity in campus dining. She also has innovative and unique ideas surrounding external scholarships and a USG-sponsored cultural tailgate. However, her policies are not as concrete or thorough as we would have liked.',
     profileParagraphs: [
       `Although Philip presents an interesting and ambitious approach to the role, hoping to achieve “transformative changes in an institution’s approach to a wide variety of issues,” we are not convinced that she could effectively execute this vision.`,
@@ -218,7 +205,6 @@ const mentalHealthCandidates = [
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
     photo: '/photos/harry-levin.png',
     year: '2028',
-    major: 'ECO',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -233,7 +219,6 @@ const mentalHealthCandidates = [
     photo: '/photos/desiree-okonkwo.png',
     photoPosition: 'center 25%',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -248,7 +233,6 @@ const mentalHealthCandidates = [
     photo: '/photos/nandita-srikumar.jpg',
     photoPosition: 'center 10%',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -265,7 +249,6 @@ const senate2028Candidates = [
     position: 'CLASS OF 2028 SENATOR',
     photo: '/photos/nabiha-charolia.jpeg',
     year: '2028',
-    major: 'ORF',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -279,7 +262,6 @@ const senate2028Candidates = [
     position: 'CLASS OF 2028 SENATOR',
     photo: '/photos/abiola-tiamiyu.jpg',
     year: '2028',
-    major: 'POL',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -293,7 +275,6 @@ const senate2028Candidates = [
     position: 'CLASS OF 2028 SENATOR',
     photo: '/photos/amelia-wray.jpg',
     year: '2028',
-    major: 'ANT',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -311,7 +292,6 @@ const senate2029Candidates = [
     photo: '/photos/jersey-chang.png',
     photoPosition: 'center 25%',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -325,7 +305,6 @@ const senate2029Candidates = [
     position: 'CLASS OF 2029 SENATOR',
     photo: null,
     year: '2029',
-    major: 'ORF',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -339,7 +318,6 @@ const senate2029Candidates = [
     position: 'CLASS OF 2029 SENATOR',
     photo: '/photos/claire-fox.png',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -356,7 +334,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: '/photos/noah-mcmahan.jpeg',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -370,7 +347,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: '/photos/tony-zhang.jpg',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -384,7 +360,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: '/photos/ava-jones.png',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -398,7 +373,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -412,7 +386,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: '/photos/quinn-pascual.jpeg',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -426,7 +399,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -440,7 +412,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: '/photos/sugi-arunagiri.jpeg',
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -454,7 +425,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -468,7 +438,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -482,7 +451,6 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: null,
     year: '2030',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -499,7 +467,6 @@ const academicsCandidates = [
     position: 'USG ACADEMICS CHAIR',
     photo: null,
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -516,7 +483,6 @@ const socialCandidates = [
     position: 'USG SOCIAL COMMITTEE CHAIR',
     photo: '/photos/mihir-radeparti.jpg',
     year: '2029',
-    major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -533,7 +499,6 @@ const campusCommunityCandidates = [
     position: 'USG CAMPUS & COMMUNITY AFFAIRS COMMITTEE CHAIR',
     photo: '/photos/anaya-willabus.jpg',
     year: '2028',
-    major: 'SPI',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
     profileParagraphs: [
       ``,
@@ -580,7 +545,7 @@ function createCandidateCard(candidate) {
         </div>
       </div>
       <h3>${candidate.name}</h3>
-      <p class="candidate-study">${candidate.year} · ${candidate.major}</p>
+      <p class="candidate-study">${candidate.year}</p>
     </div>
     <img class="card-divider" src="/assets/8231d.svg" alt="" />
     <div class="candidate-summary">
@@ -621,7 +586,7 @@ function openProfile(candidate, trigger) {
   profileStatusSymbol.src = `/assets/${candidate.endorsed ? 'ab01d.svg' : '7836e.svg'}`
   setProfileText('#profile-title', candidate.name)
   setProfileText('#profile-category', `${candidate.position} / CANDIDATE PROFILE`)
-  setProfileText('#profile-study', `${candidate.year}, ${candidate.major}`)
+  setProfileText('#profile-study', `${candidate.year}`)
   document.querySelector('#profile-candidate-statement').href = candidate.statement
   setProfileText('#profile-summary', candidate.summary)
   const profileCopy = document.querySelector('#profile-copy')

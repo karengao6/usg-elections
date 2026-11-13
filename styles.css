@@ -418,6 +418,7 @@ img {
 }
 
 .credits h2 {
+  scroll-margin-top: 72px;
   margin-top: 24px;
   font-family: 'Lora:Bold', Georgia, serif;
   font-size: 30px;
