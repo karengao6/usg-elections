@@ -1,26 +1,6 @@
 const presidentCandidates = [
   {
     id: 1,
-    name: 'Isaac Bernstein',
-    position: 'USG PRESIDENT',
-    photo: '/photos/isaac-bernstein.jpg',
-    year: '2028',
-    major: 'POL',
-    summary: 'Bernstein, the current Academics Chair, has policy proposals that are diverse and commendable. He correctly identifies a gap in the Honor Committee and Committee on Discipline’s evidentiary standards. In an interview with the Editorial Board, Bernstein said that he plans to implement “FSI-like” activities to help students feel supported. We admire this focus on community-building and mentorship. However, we are concerned that Bernstein’s platform focuses on niche issues that are not pressing or relevant to wide swathes of campus.',
-    profileParagraphs: [
-      `Bernstein is a former staff News writer for the ‘Prince.’`,
-      `In his candidate statement, Bernstein proposes to give USG the power to oversee applications to the Honor Committee and Committee on Discipline. According to his platform, he also wants to “[l]aunch an initiative to encourage clubs to not have all meetings during athlete practice times.” In general, Bernstein’s priorities do not meet the moment.`,
-      `Bernstein has emphasized the value of building relationships with administrators. In an interview with the ‘Prince,’ he said his connections have allowed him to reform longstanding programming at Princeton, like changing the location of the Academic Expo and introducing the Minor Open House program. Following the decision to introduce proctors to exams, Bernstein gathered student sentiment and successfully opposed phone collections during exams. According to Bernstein, Dean of the College Michael Gordin did not initially intend to consult with students on proctoring changes.`,
-      `We commend Bernstein’s focus on building relationships and believe that as a primary liaison between students and the University, the USG President must be adept at forming working relationships with administrators.`,
-      `However, Bernstein’s relationships haven’t prevented serious miscommunications with both the student body and with University officials, and we have concerns about his approach’s efficacy. Although Bernstein now claims he played no role in advancing the <a href="https://www.dailyprincetonian.com/article/2026/10/princeton-news-breaking-adpol-princeton-to-provide-chatgpt-accounts-all-students-faculty-staff">ChatGPT pilot</a> and denounced the initiative at the debate, his Instagram story said that it was part of a "continued effort to improve and advocate for improved academic experiences here on campus.” In text messages obtained by the ‘Prince’, he claimed to have influenced the University’s decision. We have <a href="https://www.dailyprincetonian.com/article/2026/11/princeton-opinion-ed-board-chatgpt-pilot-uniform-department-policy">written</a> about our opposition to the ChatGPT pilot recently , but our concerns lie with Bernstein’s inconsistent stance.`,
-      `Recently, Bernstein has also been associated with <a href="https://www.dailyprincetonian.com/article/2026/11/princeton-news-adpol-usg-announced-writing-seminar-changes-not-finalized">miscommunications</a> related to Writing Seminar reform. The mishap itself was not Bernstein’s error. However, he did not consult the USG Senate prior to his announcement and shared the message with the student body. Bernstein’s lack of transparency with USG and his hasty communication with students run counter to the team-oriented approach central to his platform.`,
-      `Bernstein’s goal of turning frustration into productive administrative and internal USG relationships is appealing on paper, but, ultimately, his track record is not as compelling as Roth’s.`
-    ],
-    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec4lfrw0Nh1eohHa',
-    endorsed: false,
-  },
-  {
-    id: 2,
     name: 'Marvel Jem Roth',
     position: 'USG PRESIDENT',
     photo: 'photos/marvel-jem-roth.jpeg',
@@ -39,11 +19,46 @@ const presidentCandidates = [
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recyFOfg0bJrd1fUf',
     endorsed: true,
   },
+  {
+    id: 2,
+    name: 'Isaac Bernstein',
+    position: 'USG PRESIDENT',
+    photo: '/photos/isaac-bernstein.jpg',
+    year: '2028',
+    major: 'POL',
+    summary: 'Bernstein, the current Academics Chair, has policy proposals that are diverse and commendable. He correctly identifies a gap in the Honor Committee and Committee on Discipline’s evidentiary standards. In an interview with the Editorial Board, Bernstein said that he plans to implement “FSI-like” activities to help students feel supported. We admire this focus on community-building and mentorship. However, we are concerned that Bernstein’s platform focuses on niche issues that are not pressing or relevant to wide swathes of campus.',
+    profileParagraphs: [
+      `Bernstein is a former staff News writer for the ‘Prince.’`,
+      `In his candidate statement, Bernstein proposes to give USG the power to oversee applications to the Honor Committee and Committee on Discipline. According to his platform, he also wants to “[l]aunch an initiative to encourage clubs to not have all meetings during athlete practice times.” In general, Bernstein’s priorities do not meet the moment.`,
+      `Bernstein has emphasized the value of building relationships with administrators. In an interview with the ‘Prince,’ he said his connections have allowed him to reform longstanding programming at Princeton, like changing the location of the Academic Expo and introducing the Minor Open House program. Following the decision to introduce proctors to exams, Bernstein gathered student sentiment and successfully opposed phone collections during exams. According to Bernstein, Dean of the College Michael Gordin did not initially intend to consult with students on proctoring changes.`,
+      `We commend Bernstein’s focus on building relationships and believe that as a primary liaison between students and the University, the USG President must be adept at forming working relationships with administrators.`,
+      `However, Bernstein’s relationships haven’t prevented serious miscommunications with both the student body and with University officials, and we have concerns about his approach’s efficacy. Although Bernstein now claims he played no role in advancing the <a href="https://www.dailyprincetonian.com/article/2026/10/princeton-news-breaking-adpol-princeton-to-provide-chatgpt-accounts-all-students-faculty-staff">ChatGPT pilot</a> and denounced the initiative at the debate, his Instagram story said that it was part of a "continued effort to improve and advocate for improved academic experiences here on campus.” In text messages obtained by the ‘Prince’, he claimed to have influenced the University’s decision. We have <a href="https://www.dailyprincetonian.com/article/2026/11/princeton-opinion-ed-board-chatgpt-pilot-uniform-department-policy">written</a> about our opposition to the ChatGPT pilot recently , but our concerns lie with Bernstein’s inconsistent stance.`,
+      `Recently, Bernstein has also been associated with <a href="https://www.dailyprincetonian.com/article/2026/11/princeton-news-adpol-usg-announced-writing-seminar-changes-not-finalized">miscommunications</a> related to Writing Seminar reform. The mishap itself was not Bernstein’s error. However, he did not consult the USG Senate prior to his announcement and shared the message with the student body. Bernstein’s lack of transparency with USG and his hasty communication with students run counter to the team-oriented approach central to his platform.`,
+      `Bernstein’s goal of turning frustration into productive administrative and internal USG relationships is appealing on paper, but, ultimately, his track record is not as compelling as Roth’s.`
+    ],
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/rec4lfrw0Nh1eohHa',
+    endorsed: false,
+  },
 ]
 
 const vicePresidentCandidates = [
   {
     id: 1,
+    name: 'Vivian Chang',
+    position: 'USG VICE PRESIDENT',
+    photo: '/photos/vivian-chang.jpeg',
+    year: '2028',
+    major: 'ECO',
+    summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
+    profileParagraphs: [
+      `Chang’s understanding of relationship building will particularly complement Roth’s assertive approach.`,
+      `Chang also has extensive experience in USG in both policy-based and student life-focused positions. She started in USG working as a Class Senator, where she led the NJ Transit discount initiative. Chang currently serves as the Social Chair, a role in which she has run two Lawnparties and successfully incorporated additional dietary options into the offerings. A major part of her platform last election cycle was incorporating student voices into the discussion, which informed headliner decisions. We appreciate her concrete achievements and believe that she will continue to deliver as Vice President.`,
+    ],
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recqU7fju3aYuQJ4r',
+    endorsed: true,
+  },
+  {
+    id: 2,
     name: 'Malcom Tafadzwa Dzimiri',
     position: 'USG VICE PRESIDENT',
     photo: '/photos/malcom-tafadzwa-dzimiri.jpg',
@@ -57,21 +72,6 @@ const vicePresidentCandidates = [
     ],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recvpOe49iU1cw2VI',
     endorsed: false,
-  },
-  {
-    id: 2,
-    name: 'Vivian Chang',
-    position: 'USG VICE PRESIDENT',
-    photo: '/photos/vivian-chang.jpeg',
-    year: '2028',
-    major: 'ECO',
-    summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
-    profileParagraphs: [
-      `Chang’s understanding of relationship building will particularly complement Roth’s assertive approach.`,
-      `Chang also has extensive experience in USG in both policy-based and student life-focused positions. She started in USG working as a Class Senator, where she led the NJ Transit discount initiative. Chang currently serves as the Social Chair, a role in which she has run two Lawnparties and successfully incorporated additional dietary options into the offerings. A major part of her platform last election cycle was incorporating student voices into the discussion, which informed headliner decisions. We appreciate her concrete achievements and believe that she will continue to deliver as Vice President.`,
-    ],
-    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recqU7fju3aYuQJ4r',
-    endorsed: true,
   },
 ]
 
@@ -96,6 +96,7 @@ const treasurerCandidates = [
     name: 'Joey Darbilli',
     position: 'USG TREASURER',
     photo: '/photos/joey-darbilli.jpg',
+    photoPosition: 'center 20%',
     year: '2028',
     major: 'ORF',
     summary: 'Darbilli responded to the Board’s request for comment a day after the deadline. His responses to the Board’s comments did not contain concrete policies nor demonstrate a meaningful understanding of the current role. Overall, we are unconvinced that he is qualified to be USG Treasurer.',
@@ -111,6 +112,7 @@ const studentLifeCandidates = [
     name: 'Alpha Zhang',
     position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
     photo: '/photos/alpha-zhang.jpg',
+    photoPosition: 'center 30%',
     year: '2029',
     major: 'UNKNOWN',
     summary: 'Zhang’s candidate statement emphasized initiatives like umbrella sharing that have already been underway, rather than suggest new and meaningful propositions.',
@@ -133,36 +135,8 @@ const studentLifeCandidates = [
 ]
 
 const sustainabilityCandidates = [
-  {
+    {
     id: 1,
-    name: 'Mira Quayle',
-    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: '/photos/mira-quayle.jpg',
-    year: '2030',
-    major: 'UNKNOWN',
-    summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
-    profileParagraphs: [
-      `However, we think that some of her policies are unlikely to be an effective use of the Sustainability Committee’s time. For instance, she lists a priority as “advocating for construction of affordable housing for current commuting staff on Butler Tract,” which, while admirable, strikes the Board as less actionable than the sustainability policies proposed by her opponents.`,
-    ],
-    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recWcvFriNV9BnhyO',
-    endorsed: false,
-  },
-  {
-    id: 2,
-    name: 'Ethan Albright',
-    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: '/photos/ethan-albright.JPG',
-    year: '2030',
-    major: 'UNKNOWN',
-    summary: 'We are impressed by Albright’s clear policy ideas and passion for climate activism. We feel that his policy platform, while well-developed, is more narrow than Knapp’s and therefore a less comprehensive vision for the Sustainability Committee Chair role. For example, while Albright discusses opportunities for collaboration with the existing campus sustainability framework, he does not attach specific policy initiatives to many of these collaboration efforts.',
-    profileParagraphs: [
-      `While he is a strong candidate, we believe that Knapp has a slight edge.`,
-    ],
-    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/reccxrru8to0RZeDu',
-    endorsed: false,
-  },
-  {
-    id: 3,
     name: 'Joshua Knapp',
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
     photo: '/photos/joshua-knapp.jpeg',
@@ -175,25 +149,39 @@ const sustainabilityCandidates = [
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recQKUIiDHRRMbnUQ',
     endorsed: true,
   },
+  {
+    id: 2,
+    name: 'Mira Quayle',
+    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
+    photo: null,
+    year: '2030',
+    major: 'UNKNOWN',
+    summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
+    profileParagraphs: [
+      `However, we think that some of her policies are unlikely to be an effective use of the Sustainability Committee’s time. For instance, she lists a priority as “advocating for construction of affordable housing for current commuting staff on Butler Tract,” which, while admirable, strikes the Board as less actionable than the sustainability policies proposed by her opponents.`,
+    ],
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recWcvFriNV9BnhyO',
+    endorsed: false,
+  },
+  {
+    id: 3,
+    name: 'Ethan Albright',
+    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
+    photo: '/photos/ethan-albright.JPG',
+    year: '2030',
+    major: 'UNKNOWN',
+    summary: 'We are impressed by Albright’s clear policy ideas and passion for climate activism. We feel that his policy platform, while well-developed, is more narrow than Knapp’s and therefore a less comprehensive vision for the Sustainability Committee Chair role. For example, while Albright discusses opportunities for collaboration with the existing campus sustainability framework, he does not attach specific policy initiatives to many of these collaboration efforts.',
+    profileParagraphs: [
+      `While he is a strong candidate, we believe that Knapp has a slight edge.`,
+    ],
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/reccxrru8to0RZeDu',
+    endorsed: false,
+  },
 ]
 
 const deiCandidates = [
   {
     id: 1,
-    name: 'Nastasia Philip',
-    position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
-    photo: '/photos/nastasia-philip.jpg',
-    year: '2029',
-    major: 'UNKNOWN',
-    summary: 'Philip’s platform and experience are similar to Li’s, focusing on menstrual product availability and inclusivity in campus dining. She also has innovative and unique ideas surrounding external scholarships and a USG-sponsored cultural tailgate. However, her policies are not as concrete or thorough as we would have liked.',
-    profileParagraphs: [
-      `Although Philip presents an interesting and ambitious approach to the role, hoping to achieve “transformative changes in an institution’s approach to a wide variety of issues,” we are not convinced that she could effectively execute this vision.`,
-    ],
-    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recub8BBn2GaVT0mQ',
-    endorsed: false,
-  },
-  {
-    id: 2,
     name: 'Angela Li',
     position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
     photo: '/photos/angela-li.jpg',
@@ -206,6 +194,20 @@ const deiCandidates = [
     ],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recPezrP1qKHs3ie2',
     endorsed: true,
+  },
+  {
+    id: 2,
+    name: 'Nastasia Philip',
+    position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
+    photo: '/photos/nastasia-philip.jpg',
+    year: '2029',
+    major: 'UNKNOWN',
+    summary: 'Philip’s platform and experience are similar to Li’s, focusing on menstrual product availability and inclusivity in campus dining. She also has innovative and unique ideas surrounding external scholarships and a USG-sponsored cultural tailgate. However, her policies are not as concrete or thorough as we would have liked.',
+    profileParagraphs: [
+      `Although Philip presents an interesting and ambitious approach to the role, hoping to achieve “transformative changes in an institution’s approach to a wide variety of issues,” we are not convinced that she could effectively execute this vision.`,
+    ],
+    statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recub8BBn2GaVT0mQ',
+    endorsed: false,
   },
 ]
 
@@ -229,6 +231,7 @@ const mentalHealthCandidates = [
     name: 'Desiree Okonkwo',
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
     photo: '/photos/desiree-okonkwo.png',
+    photoPosition: 'center 25%',
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -243,6 +246,7 @@ const mentalHealthCandidates = [
     name: 'Nandita Srikumar',
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
     photo: '/photos/nandita-srikumar.jpg',
+    photoPosition: 'center 10%',
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -305,6 +309,7 @@ const senate2029Candidates = [
     name: 'Jersey Chang',
     position: 'CLASS OF 2029 SENATOR',
     photo: '/photos/jersey-chang.png',
+    photoPosition: 'center 25%',
     year: '2029',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -318,7 +323,7 @@ const senate2029Candidates = [
     id: 2,
     name: 'Sophia Self',
     position: 'CLASS OF 2029 SENATOR',
-    photo: '/photos/sophia-self.jpg',
+    photo: null,
     year: '2029',
     major: 'ORF',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -377,7 +382,7 @@ const senate2030Candidates = [
     id: 3,
     name: 'Ava Jones',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/ava-jones.jpeg',
+    photo: '/photos/ava-jones.png',
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -391,7 +396,7 @@ const senate2030Candidates = [
     id: 4,
     name: 'Kiara Bardakou',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/kiara-bardakou.jpg',
+    photo: null,
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -405,7 +410,7 @@ const senate2030Candidates = [
     id: 5,
     name: 'Quinn Pascual',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/quinn-pascual.jpg',
+    photo: '/photos/quinn-pascual.jpeg',
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -419,7 +424,7 @@ const senate2030Candidates = [
     id: 6,
     name: 'Eddy Ryan',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/eddy-ryan.jpg',
+    photo: null,
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -447,7 +452,7 @@ const senate2030Candidates = [
     id: 8,
     name: 'Aurelian Carmona',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/aurelian-carmona.png',
+    photo: null,
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -461,7 +466,7 @@ const senate2030Candidates = [
     id: 9,
     name: 'Chace Olsen',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/chace-olsen.jpeg',
+    photo: null,
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -475,7 +480,7 @@ const senate2030Candidates = [
     id: 10,
     name: 'Jayden Waters',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/jayden-waters.JPG',
+    photo: null,
     year: '2030',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -492,7 +497,7 @@ const academicsCandidates = [
     id: 1,
     name: 'Razvan Verde',
     position: 'USG ACADEMICS CHAIR',
-    photo: '/photos/razvan-verde.jpeg',
+    photo: null,
     year: '2029',
     major: 'UNKNOWN',
     summary: 'Filler filler filler filler. Person proposes blah blah blah, more text and more text.',
@@ -559,7 +564,7 @@ let profileTrigger = null
 
 function createCandidateCard(candidate) {
   const card = document.createElement('article')
-  card.className = 'candidate-card'
+  card.className = `candidate-card ${candidate.endorsed ? 'is-endorsed' : 'not-endorsed'}`
   card.tabIndex = 0
   card.setAttribute('role', 'button')
   card.setAttribute('aria-haspopup', 'dialog')
@@ -569,7 +574,7 @@ function createCandidateCard(candidate) {
 
   card.innerHTML = `
     <div class="candidate-identity">
-      <div class="portrait" aria-hidden="true" style="background-image: url('${candidate.photo}')">
+      <div class="portrait" aria-hidden="true" style="background-image: ${candidate.photo ? `url('${candidate.photo}')` : 'none'}; background-position: ${candidate.photoPosition || 'center'}">
         <div class="status-mark ${candidate.endorsed ? 'is-endorsed' : 'not-endorsed'}">
           <img class="status-symbol" src="/assets/${symbolAsset}" alt="" />
         </div>
@@ -607,7 +612,8 @@ function setProfileText(selector, value) {
 
 function openProfile(candidate, trigger) {
   profileTrigger = trigger
-  document.querySelector('.portrait-large').style.backgroundImage = `url('${candidate.photo}')`
+  document.querySelector('.portrait-large').style.backgroundImage = candidate.photo ? `url('${candidate.photo}')` : 'none'
+  document.querySelector('.portrait-large').style.backgroundPosition = candidate.photoPosition || 'center'
   const profileStatusMark = document.querySelector('#profile-status-mark')
   const profileStatusSymbol = document.querySelector('#profile-status-symbol')
   profileStatusMark.classList.toggle('is-endorsed', candidate.endorsed)

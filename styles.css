@@ -254,10 +254,18 @@ img {
   display: flex;
   min-height: 552px;
   flex-direction: column;
-  border: 4px solid #a94f35;
+  border: 4px solid #808080;
   padding: 16px 8px 18px;
   cursor: pointer;
   transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.candidate-card.is-endorsed {
+  border-color: #38962e;
+}
+
+.candidate-card.not-endorsed {
+  border-color: #808080;
 }
 
 .candidate-card:hover,
