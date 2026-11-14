@@ -464,7 +464,11 @@ img {
   line-height: 1.55;
 }
 
-.editorial-note a {
+.editorial-intro a:any-link,
+.credits a:any-link,
+.editorial-note a:any-link,
+.candidate-background a:any-link,
+.profile-copy a:any-link {
   color: #a94f35;
   font: inherit;
   text-underline-offset: 3px;
@@ -779,3 +783,4 @@ img {
 }
 
 .modal-open .section-sidebar { visibility: hidden; }
+
