@@ -11,8 +11,7 @@ const presidentCandidates = [
       `In 2025, she <a href="https://www.dailyprincetonian.com/article/2025/02/princeton-news-adpol-undergraduate-student-government-student-life-committee-attendance-policy">served</a> as the deputy projects manager. Subsequently, in her time as USG treasurer, Roth has implemented policies that have made meaningful and positive differences in student life.`,
       `Most interviews of USG members conducted by the editorial board showed a consensus that Roth excelled in her fiduciary duty as treasurer. When she was elected, USG faced a budget deficit. Roth led reforms that have now resulted in a large surplus. She also delivered on transparency, providing detailed weekly budget updates in Senate meetings.`,
       `Roth has written a number of resolutions, notably ones <a href="https://www.dailyprincetonian.com/article/2026/10/princeton-news-usg-senate-adopts-statements-cornell-case-data-center-construction">advocating</a> for Title IX policy reform and publicly opposing the South Brunswick data center. We appreciate her consistent advocacy for the student body, as well as her <a href="https://www.dailyprincetonian.com/article/2026/10/princeton-opinion-opguest-princeton-title-ix-usg-letter-michele-minter-response-cornell-seven">willingness</a> to communicate with students and hold the University accountable.`,
-      `We do have concerns about the lack of specificity and overly ambitious nature`,
-      `of some of Roth’s policies. Furthermore, we do not unanimously endorse every element of Roth’s policy platform. Nonetheless, she recognizes the relevant problem of administrative miscommunication and USG’s passive response to policy. We believe she will be an effective liaison between students and the University administration.`,
+      `We do have concerns about the lack of specificity and overly ambitious nature of some of Roth’s policies. Furthermore, we do not unanimously endorse every element of Roth’s policy platform. Nonetheless, she recognizes the relevant problem of administrative miscommunication and USG’s passive response to policy. We believe she will be an effective liaison between students and the University administration.`,
       `As to her approach, Roth presents herself as an assertive leader who does not shy away from conflict with administrators. She expressed in an interview that she believes balancing confrontation with cooperative dialogue is foundational to representing and communicating student voices.`,
       `Though Roth may risk compromising working relationships with the administration, we anticipate, based on her track record, that her approach will lead to policy wins.`,
     ],
@@ -47,7 +46,7 @@ const vicePresidentCandidates = [
     position: 'VICE PRESIDENT',
     photo: './photos/vivian-chang.jpeg',
     year: '2028',
-    summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
+    summary: 'The VP role has historically been flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the editorial board that she wants to serve as the “glue” between administrators and students.',
     profileParagraphs: [
       `Chang’s understanding of relationship building will particularly complement Roth’s assertive approach.`,
       `Chang also has extensive experience in USG in both policy-based and student life-focused positions. She started in USG working as a class senator, where she led the NJ Transit discount initiative. Chang currently serves as the social chair, a role in which she has run two Lawnparties and successfully incorporated additional dietary options into the offerings. A major part of her platform last election cycle was incorporating student voices into the discussion, which informed headliner decisions. We appreciate her concrete achievements and believe that she will continue to deliver as vice president.`,
@@ -394,7 +393,7 @@ const senate2030Candidates = [
     position: 'CLASS OF 2030 SENATOR',
     photo: './photos/quinn-pascual.jpeg',
     year: '2030',
-    summary: `We laud Pascual for speaking to previous class senators and considering the limitations of the USG’s budget. However, we believe his platform is too vague and largely inactionable, and misunderstands the nature of the USG’s Accountability Coalition and the cause of low voter turnout.`,
+    summary: `We laud Pascual for speaking to previous class senators and considering the limitations of the USG’s budget. However, we believe his platform is too vague and largely inactionable, and we think he misunderstands the nature of the USG’s Accountability Coalition and the cause of low voter turnout.`,
     profileParagraphs: [],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recwItLapjcClxCrW',
     endorsed: false,
@@ -429,7 +428,7 @@ const senate2030Candidates = [
     photo: './photos/tony-zhang.jpg',
     photoPosition: 'center 15%',
     year: '2030',
-    summary: `We appreciated Zhang’s commitment to transparency, where he suggested, for example, an open forum between senate members and the student body. But we felt his proposals, such as following up on a previous senatorial proposal of to-go breakfasts, were minor shifts that did not respond to a real student need.`,
+    summary: `We appreciated Zhang’s commitment to transparency; he suggested, for example, an open forum between senate members and the student body. But we felt his proposals, such as following up on a previous senatorial proposal of to-go breakfasts, were minor shifts that did not respond to a real student need.`,
     profileParagraphs: [],
     statement: 'https://airtable.com/apppyBqlIzNp9whOb/shrjBEc2llgLhXwPm/tblCakoBGuKbkSjEA/viwPsTqAfTlJMzBtT/recLMYv4inG9dJcSl',
     endorsed: false,
@@ -444,7 +443,7 @@ const academicsCandidates = [
     photo: './photos/razvan-verde.jpeg',
     photoPosition: 'center 15%',
     year: '2029',
-    summary: `We respect Verde’s experience on the Academic Committee, and his leadership on the Subcommittee on Proctoring. However, he responded to questions from the editorial board a day after the deadline, and did not provide a novel vision or policy for the role.`,
+    summary: `We respect Verde’s experience on the Academics Committee and his leadership on the Subcommittee on Proctoring. However, he responded to questions from the editorial board a day after the deadline, and did not provide a novel vision or policy for the role.`,
     profileParagraphs: [
       `Razvan Verde is a staff News writer for the ‘Prince.’`,
     ],
@@ -460,7 +459,7 @@ const socialCandidates = [
     position: 'SOCIAL COMMITTEE CHAIR',
     photo: './photos/mihir-radeparti.jpg',
     year: '2029',
-    summary: `In interviews with the Editorial Board, members of USG who have worked with Tadeparti said he collaborates well with class representatives. Further, they cited Tadeparti’s work in arranging meetings to advocate for concrete improvements, like efforts to introduce a takeout option in dining halls. We believe that Tadeparti’s ability to collaborate with members of various class years, as well as his focus on concrete change, will serve him in collecting student input and organizing social events.`,
+    summary: `In interviews with the editorial board, members of USG who have worked with Tadeparti said he collaborates well with class representatives. Further, they cited Tadeparti’s work in arranging meetings to advocate for concrete improvements, like efforts to introduce a takeout option in dining halls. We believe that Tadeparti’s ability to collaborate with members of various class years, as well as his focus on concrete change, will serve him in collecting student input and organizing social events.`,
     profileParagraphs: [
       `We also appreciate his commitment to improving transparency in the selection process for Lawnparties headliners. Lawnparties are the Social Chair’s most high-profile events, but the process for artist selection often feels opaque to students. We believe that Tadeparti’s intention to publish regular reports on the search process and USG’s financial motivations presents a solution. Additionally, he proposes low-cost events throughout the year that will engage students with USG.`,
       `However, we are concerned about Tadeparti’s inconsistent commitment to USG. According to the USG attendance tracker, Tadeparti has either <a href="https://docs.google.com/spreadsheets/d/1AsAp4MCVPDBfqC_tSWmdp4xwKHq6mkzJbpEyidxde7k/edit?gid=186001220#gid=186001220">been</a> absent or designated a proxy in six out of 10 meetings in the fall term. In a comment to the Board, Tadeparti said that two tardies were marked as absences. We hope that he will give the Social Chair role the time it requires to organize well-run events that engage the student body.`,
@@ -532,7 +531,7 @@ function createCandidateCard(candidate) {
       <p>${candidate.summary}</p>
     </div>
     <span class="read-profile">
-      Read full profile
+      Read the full profile
       <img src="./assets/a03f5.svg" alt="" />
     </span>
   `
