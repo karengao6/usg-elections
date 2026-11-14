@@ -168,6 +168,10 @@ img {
   overflow-wrap: anywhere;
 }
 
+.editorial-note.candidate-statements-note {
+  font-size: 23px;
+}
+
 .editorial-intro article {
   display: flex;
   flex-direction: column;
@@ -657,7 +661,8 @@ img {
     inset-block-start: 260px;
   }
 
-  .editorial-intro article {
+  .editorial-intro article,
+  .editorial-note.candidate-statements-note {
     font-size: 20px;
   }
 
