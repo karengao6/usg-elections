@@ -142,7 +142,7 @@ const sustainabilityCandidates = [
     id: 2,
     name: 'Mira Quayle',
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: './assets/blank-profile.png',
+    photo: './photos/mira-quayle.jpg',
     year: '2030',
     summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
     profileParagraphs: [
