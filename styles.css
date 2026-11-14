@@ -115,7 +115,7 @@ img {
   background:
     linear-gradient(to bottom, #ede3df 0, rgb(237 227 223 / 0%) 220px),
     linear-gradient(rgb(242 141 101 / 40%), rgb(242 141 101 / 40%)),
-    url('/assets/nassau-hall.jpg') center 82% / cover no-repeat;
+    url('./assets/nassau-hall.jpg') center 82% / cover no-repeat;
 }
 
 .hero-kicker,

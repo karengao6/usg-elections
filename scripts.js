@@ -22,7 +22,7 @@ const presidentCandidates = [
     id: 2,
     name: 'Isaac Bernstein',
     position: 'USG PRESIDENT',
-    photo: '/photos/isaac-bernstein.jpg',
+    photo: './photos/isaac-bernstein.jpg',
     year: '2028',
     summary: 'Bernstein, the current Academics Chair, has policy proposals that are diverse and commendable. He correctly identifies a gap in the Honor Committee and Committee on Discipline’s evidentiary standards. In an interview with the Editorial Board, Bernstein said that he plans to implement “FSI-like” activities to help students feel supported. We admire this focus on community-building and mentorship. However, we are concerned that Bernstein’s platform focuses on niche issues that are not pressing or relevant to wide swathes of campus.',
     profileParagraphs: [
@@ -44,7 +44,7 @@ const vicePresidentCandidates = [
     id: 1,
     name: 'Vivian Chang',
     position: 'USG VICE PRESIDENT',
-    photo: '/photos/vivian-chang.jpeg',
+    photo: './photos/vivian-chang.jpeg',
     year: '2028',
     summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
     profileParagraphs: [
@@ -58,7 +58,7 @@ const vicePresidentCandidates = [
     id: 2,
     name: 'Malcom Tafadzwa Dzimiri',
     position: 'USG VICE PRESIDENT',
-    photo: '/photos/malcom-tafadzwa-dzimiri.jpg',
+    photo: './photos/malcom-tafadzwa-dzimiri.jpg',
     year: '2028',
     summary: 'Dzimiri was previously a U-councilor on the CPUC committee as well as the Athletics Senate Initiative Chair. In an interview with the Editorial Board, Dzimiri emphasized increased transparency between USG and the student body. He envisions a policy of open houses and direct-to-student communication.',
     profileParagraphs: [
@@ -76,7 +76,7 @@ const treasurerCandidates = [
     id: 1,
     name: 'Emi Ren',
     position: 'USG TREASURER',
-    photo: '/photos/emi-ren.JPG',
+    photo: './photos/emi-ren.JPG',
     year: '2029',
     summary: 'Ren’s platform highlights an important commitment to improving student involvement in the funding process. Especially given the current surplus of funds in USG, it’s important that the treasurer has a plan for disbursing money to student groups. We believe that, in particular, her focus on incorporating student voices into the funding allocation process will make sure that the USG budget can work for students. Ren wrote to the ‘Prince’ that she wanted to create “a clear set of guidelines sent to student leaders in advance so they understand why USG chooses to or chooses not to fund their projects.” Additionally, she accurately identifies that the USG can and should play a role in improving student quality of life amidst budget cuts. Though we felt that some of her proposals, like including weekly expenditures in USG newsletters, may be redundant, her policies impressed us overall. Previous elected members of USG spoke highly of her judiciousness and commitment to accountability.',
     profileParagraphs: [
@@ -90,7 +90,7 @@ const treasurerCandidates = [
     id: 2,
     name: 'Joey Darbilli',
     position: 'USG TREASURER',
-    photo: '/photos/joey-darbilli.jpg',
+    photo: './photos/joey-darbilli.jpg',
     photoPosition: 'center 20%',
     year: '2028',
     summary: 'Darbilli responded to the Board’s request for comment a day after the deadline. His responses to the Board’s comments did not contain concrete policies nor demonstrate a meaningful understanding of the current role. Overall, we are unconvinced that he is qualified to be USG Treasurer.',
@@ -105,7 +105,7 @@ const studentLifeCandidates = [
     id: 1,
     name: 'Alpha Zhang',
     position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
-    photo: '/photos/alpha-zhang.jpg',
+    photo: './photos/alpha-zhang.jpg',
     photoPosition: 'center 30%',
     year: '2029',
     summary: 'Zhang’s candidate statement emphasized initiatives like umbrella sharing that have already been underway, rather than suggest new and meaningful propositions.',
@@ -117,7 +117,7 @@ const studentLifeCandidates = [
     id: 2,
     name: 'Emily Chen',
     position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
-    photo: '/photos/emily-chen.jpeg',
+    photo: './photos/emily-chen.jpeg',
     year: '2028',
     summary: 'Chen’s proposals demonstrate a willingness to stand up to the University, which is particularly relevant in a moment where the University has passed unpopular policies. That said, her policies did not show a strong understanding of what the USLC role entails. She proposed policies that were unlikely to be under the purview of the committee, such as organizing student protests.',
     profileParagraphs: [],
@@ -131,7 +131,7 @@ const sustainabilityCandidates = [
     id: 1,
     name: 'Joshua Knapp',
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: '/photos/joshua-knapp.jpeg',
+    photo: './photos/joshua-knapp.jpeg',
     year: '2030',
     summary: 'We believe that Knapp outlines a plan to partner with various existing campus organizations to make meaningful, actionable strides in sustainability goals. He proposes working with EcoReps to support the launch of a student-run clothing resale closet. Knapp also wants to collaborate with Campus Dining and local organizations to ensure surplus food from dining halls, for example, is redirected to community members. We think he balances individual incentives for sustainability, like energy conservation competitions, with more sweeping partnerships designed for substantial change.',
     profileParagraphs: [],
@@ -142,7 +142,7 @@ const sustainabilityCandidates = [
     id: 2,
     name: 'Mira Quayle',
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: '/assets/blank-profile.png',
+    photo: './assets/blank-profile.png',
     year: '2030',
     summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
     profileParagraphs: [
@@ -155,7 +155,7 @@ const sustainabilityCandidates = [
     id: 3,
     name: 'Ethan Albright',
     position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
-    photo: '/photos/ethan-albright.JPG',
+    photo: './photos/ethan-albright.JPG',
     year: '2030',
     summary: 'We are impressed by Albright’s clear policy ideas. We feel that his policy platform, while well-developed, is more narrow than Knapp’s and therefore a less comprehensive vision for the Sustainability Committee Chair role. For example, while Albright discusses opportunities for collaboration within the existing campus sustainability framework, he does not attach specific policy initiatives to those efforts.',
     profileParagraphs: [
@@ -171,7 +171,7 @@ const deiCandidates = [
     id: 1,
     name: 'Angela Li',
     position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
-    photo: '/photos/angela-li.jpg',
+    photo: './photos/angela-li.jpg',
     year: '2028',
     summary: 'Li currently serves as an active member of the DEI committee. On her platform, she lists a number of well-developed policies that would further her commitments to advocate for international students and make campus dining more inclusive to religious and cultural groups. She also expresses commitments to collaborating with affinity groups and seeking student input.',
     profileParagraphs: [
@@ -184,7 +184,7 @@ const deiCandidates = [
     id: 2,
     name: 'Nastasia Philip',
     position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
-    photo: '/photos/nastasia-philip.jpg',
+    photo: './photos/nastasia-philip.jpg',
     year: '2029',
     summary: 'Philip’s platform and experience are similar to Li’s, focusing on menstrual product availability and inclusivity in campus dining. She also has innovative and unique ideas surrounding external scholarships and a USG-sponsored cultural tailgate. However, we feel her policies are less impactful than what the committee is capable of implementing.',
     profileParagraphs: [],
@@ -198,7 +198,7 @@ const mentalHealthCandidates = [
     id: 1,
     name: 'Harry Levin',
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
-    photo: '/photos/harry-levin.png',
+    photo: './photos/harry-levin.png',
     year: '2028',
     summary: 'He is the only candidate with experience in the committee, and we are impressed by his efforts thus far. In his response to the Board’s questions, he highlighted his involvement in tasks like developing the Mental Health Task Force and creating a website for CPS referrals. We also recognize his suggestion to note days on the calendar where people are more prone to experience mental health challenges. We appreciate his acknowledgement that factors other than academics can affect student mental health.',
     profileParagraphs: [
@@ -211,7 +211,7 @@ const mentalHealthCandidates = [
     id: 2,
     name: 'Desiree Okonkwo',
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
-    photo: '/photos/desiree-okonkwo.png',
+    photo: './photos/desiree-okonkwo.png',
     photoPosition: 'center 25%',
     year: '2030',
     summary: 'Okonkwo correctly identifies that the current research focus of the Mental Health Committee must also be translated into action. But we do not believe that regular surveys are the best way to reach students facing mental health challenges. However, we feel that her suggestions are not sufficiently innovative nor effective to address the problems at hand.',
@@ -223,7 +223,7 @@ const mentalHealthCandidates = [
     id: 3,
     name: 'Nandita Srikumar',
     position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
-    photo: '/photos/nandita-srikumar.jpg',
+    photo: './photos/nandita-srikumar.jpg',
     photoPosition: 'center 10%',
     year: '2030',
     summary: 'Srikumar emphasizes her past experience with brain health advocacy, and her proposals to provide clear updates on the committee’s progress and continue collecting data on mental health are fixes in the right direction. However, we do not feel that her policies are specific enough to distinguish her as a candidate.',
@@ -238,7 +238,7 @@ const senate2028Candidates = [
     id: 1,
     name: 'Amelia Wray',
     position: 'CLASS OF 2028 SENATOR',
-    photo: '/photos/amelia-wray.jpg',
+    photo: './photos/amelia-wray.jpg',
     year: '2028',
     summary: 'We commend Wray’s leadership on the Menstrual Product Task Force. According to her platform, she secured 3,000 dollars to increase access to menstrual products, and hopes to achieve universal access for these products as a senator.',
     profileParagraphs: [
@@ -251,7 +251,7 @@ const senate2028Candidates = [
     id: 2,
     name: 'Nabiha Charolia',
     position: 'CLASS OF 2028 SENATOR',
-    photo: '/photos/nabiha-charolia.jpeg',
+    photo: './photos/nabiha-charolia.jpeg',
     year: '2028',
     summary: 'Charolia has an impressive record of campus leadership, including the Forbes College Council and the Academics and Financial Aid committees. However, we believe that her policy proposals could have been stronger.',
     profileParagraphs: [
@@ -264,7 +264,7 @@ const senate2028Candidates = [
     id: 3,
     name: 'Abiola Tiamiyu',
     position: 'CLASS OF 2028 SENATOR',
-    photo: '/photos/abiola-tiamiyu.jpg',
+    photo: './photos/abiola-tiamiyu.jpg',
     year: '2028',
     summary: 'USG members have praised Tiamiyu’s thoughtfulness when she participates in meetings. She also shared interesting ideas about collaboration between members who would otherwise rarely interact.',
     profileParagraphs: [
@@ -280,7 +280,7 @@ const senate2029Candidates = [
     id: 1,
     name: 'Jersey Chang',
     position: 'CLASS OF 2029 SENATOR',
-    photo: '/photos/jersey-chang.png',
+    photo: './photos/jersey-chang.png',
     photoPosition: 'center 25%',
     year: '2029',
     summary: 'Chang’s experience thus far in USG is impressive: She has served on the DEI committee for two years, working on a variety of initiatives such as TigerTies and the PSIE Immigration Day, according to her responses to our questions. She has exciting policies relating to international students and student transit, but her proposal on rideshares for athletics games is relatively narrow in scope. We also appreciate her idea to produce short-form content to communicate USG updates.',
@@ -294,7 +294,7 @@ const senate2029Candidates = [
     id: 2,
     name: 'Sophia Self',
     position: 'CLASS OF 2029 SENATOR',
-    photo: '/photos/sophia-self.jpg',
+    photo: './photos/sophia-self.jpg',
     photoPosition: 'center 12%',
     year: '2029',
     summary: 'Self responded to the Board’s request for comment two days after our deadline. Multiple USG members spoke to her dedication as an OA leader, and it is clear that she has experience in a wide range of campus extracurriculars. However, similar to Fox’s platform, we were hoping to see more concrete policies in her responses.',
@@ -309,7 +309,7 @@ const senate2029Candidates = [
     id: 3,
     name: 'Claire Fox',
     position: 'CLASS OF 2029 SENATOR',
-    photo: '/photos/claire-fox.png',
+    photo: './photos/claire-fox.png',
     year: '2029',
     summary: 'Fox accurately diagnoses the administration’s inability to consult with students, and it seems from her statements that she is willing to advocate for student voices. However, we believe that she could benefit from having more tangible policy proposals. In her responses to the Board’s request for comment, she sharply identified the relevant issues, but did not propose clear policies to effectively address them.',
     profileParagraphs: [
@@ -325,7 +325,7 @@ const senate2030Candidates = [
     id: 1,
     name: 'Sugi Arunagiri',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/sugi-arunagiri.jpeg',
+    photo: './photos/sugi-arunagiri.jpeg',
     year: '2030',
     summary: "Arunagiri is the standout candidate. We believe she shows a high level of both commitment and understanding of the class senator position. She identifies the problem of low senator engagement in resolution and speechmaking in USG meetings, and she proposes concrete steps to address the issues. She stood out in her comprehension of the most relevant problems which have affected the student body, as well as her tangible solutions to those problems. Her response demonstrates a knowledge of the senator's role as a liaison between students and administrators. While her platform was at times overambitious, especially considering that she is running as a freshman senator, we think her history of commitment to USG and clear vision for the role make her the strongest senatorial candidate.",
     profileParagraphs: [],
@@ -336,7 +336,7 @@ const senate2030Candidates = [
     id: 2,
     name: 'Noah McMahan',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/noah-mcmahan.jpeg',
+    photo: './photos/noah-mcmahan.jpeg',
     year: '2030',
     summary: 'McMahan’s willingness to speak with administrators and commitment to accountability was notable. But we believe his platform focused too much on political strategy and not policy. He was unclear, for example, on how he would fulfill his ambitious promise to get the VP of Student Life to commit in writing to engaging with student demands.',
     profileParagraphs: [],
@@ -347,7 +347,7 @@ const senate2030Candidates = [
     id: 3,
     name: 'Tony Zhang',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/tony-zhang.jpg',
+    photo: './photos/tony-zhang.jpg',
     photoPosition: 'center 15%',
     year: '2030',
     summary: 'We appreciated Zhang’s commitment to transparency, where he suggested, for example, an open forum between Senate members and the student body. But we felt his proposals, such as to-go breakfasts, were minor shifts that did not respond to a real student need.',
@@ -359,7 +359,7 @@ const senate2030Candidates = [
     id: 4,
     name: 'Ava Jones',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/ava-jones.png',
+    photo: './photos/ava-jones.png',
     year: '2030',
     summary: 'Jones has a good grasp of the issues that are pertinent to the student body and even cites specific senate resolutions. But we find her solutions to those issues to be generally uncreative. We do not think that polling and encouraging people to vote are sufficient actions to increase voter turnout.',
     profileParagraphs: [],
@@ -370,7 +370,7 @@ const senate2030Candidates = [
     id: 5,
     name: 'Kiara Bardakou',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/assets/blank-profile.png',
+    photo: './assets/blank-profile.png',
     year: '2030',
     summary: 'Bardakou suggests specific, achievable improvements to student life, like Late Meal on weekends. But she demonstrates a misunderstanding of the senator’s role. Dining, for example, is not an issue that affects first-years, and her platform makes little mention of the Senator’s liaising role with the administration.',
     profileParagraphs: [],
@@ -381,7 +381,7 @@ const senate2030Candidates = [
     id: 6,
     name: 'Quinn Pascual',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/quinn-pascual.jpeg',
+    photo: './photos/quinn-pascual.jpeg',
     year: '2030',
     summary: 'We laud Pascual for speaking to previous class Senators and considering the limitations of the USG’s budget. However, we believe his platform is too vague and largely inactionable, and misunderstands the nature of the USG’s Accountability Coalition and the cause of low voter turnout.',
     profileParagraphs: [],
@@ -392,7 +392,7 @@ const senate2030Candidates = [
     id: 7,
     name: 'Eddy Ryan',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/assets/blank-profile.png',
+    photo: './assets/blank-profile.png',
     year: '2030',
     summary: 'Ryan prioritizes similar problems as Arunagiri, pointing out disengagement from previous senate members. But what he identifies as the University’s lack of respect for USG is difficult for  a first-year class senator to remedy without actionable steps. In his individual response to the Board, Ryan did not sufficiently articulate the specifics to accomplish his vision.',
     profileParagraphs: [],
@@ -403,7 +403,7 @@ const senate2030Candidates = [
     id: 8,
     name: 'Aurelian Carmona',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/aurelian-carmona.png',
+    photo: './photos/aurelian-carmona.png',
     year: '2030',
     summary: 'Carmona understands the problems faced by the student body, and in comment to the Board, emphasized a persistence that Senators can lack. However, Carmona offers little specific vision to execute these ideas.',
     profileParagraphs: [],
@@ -414,7 +414,7 @@ const senate2030Candidates = [
     id: 9,
     name: 'Chace Olsen',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/assets/blank-profile.png',
+    photo: './assets/blank-profile.png',
     year: '2030',
     summary: 'Olsen did not respond to requests for comment from the ‘Prince’ prior to the end of deliberations. Olsen’s promises on his platform address the right problems, but we feel that he lacks the adequate solutions. ',
     profileParagraphs: [],
@@ -425,7 +425,7 @@ const senate2030Candidates = [
     id: 10,
     name: 'Jayden Waters',
     position: 'CLASS OF 2030 SENATOR',
-    photo: '/photos/jayden-waters.JPG',
+    photo: './photos/jayden-waters.JPG',
     photoPosition: 'center 15%',
     year: '2030',
     summary: 'Waters did not respond to requests for comment from the ‘Prince’ prior to the end of deliberations. His advocacy is specific to the Class of 2030, but some of his solutions, like advocating for e-bikes, do not reflect what we believe to be student priorities.',
@@ -440,7 +440,7 @@ const academicsCandidates = [
     id: 1,
     name: 'Razvan Verde',
     position: 'USG ACADEMICS CHAIR',
-    photo: '/photos/razvan-verde.jpeg',
+    photo: './photos/razvan-verde.jpeg',
     photoPosition: 'center 15%',
     year: '2029',
     summary: 'We respect Verde’s experience on the Academic Committee, and his leadership on the Subcommittee on Proctoring. However, he responded to our request for comment a day after the deadline, and did not provide a novel vision or policy for the role.',
@@ -455,7 +455,7 @@ const socialCandidates = [
     id: 1,
     name: 'Mihir Tadeparti',
     position: 'USG SOCIAL COMMITTEE CHAIR',
-    photo: '/photos/mihir-radeparti.jpg',
+    photo: './photos/mihir-radeparti.jpg',
     year: '2029',
     summary: 'In interviews with the Editorial Board, members of USG who have worked with Tadeparti said he collaborates well with class representatives. Further, they cited Tadeparti’s work in arranging meetings to advocate for concrete improvements, like efforts to introduce a takeout option in dining halls. We believe that Tadeparti’s ability to collaborate with members of various class years, as well as his focus on concrete change, will serve him in collecting student input and organizing social events.',
     profileParagraphs: [
@@ -472,7 +472,7 @@ const campusCommunityCandidates = [
     id: 1,
     name: 'Anaya Willabus',
     position: 'USG CAMPUS & COMMUNITY AFFAIRS COMMITTEE CHAIR',
-    photo: '/photos/anaya-willabus.jpg',
+    photo: './photos/anaya-willabus.jpg',
     year: '2028',
     summary: 'Willabus is the incumbent chair and has served on the committee since her freshman year, bringing impressive experience. She wants to use CCA to engage students with USG, and make community engagement opportunities as visible as possible through improved social media outreach.',
     profileParagraphs: [
@@ -518,19 +518,19 @@ function createCandidateCard(candidate) {
     <div class="candidate-identity">
       <div class="portrait" aria-hidden="true" style="background-image: ${candidate.photo ? `url('${candidate.photo}')` : 'none'}; background-position: ${candidate.photoPosition || 'center'}">
         <div class="status-mark ${candidate.endorsed ? 'is-endorsed' : 'not-endorsed'}">
-          <img class="status-symbol" src="/assets/${symbolAsset}" alt="" />
+          <img class="status-symbol" src="./assets/${symbolAsset}" alt="" />
         </div>
       </div>
       <h3>${candidate.name}</h3>
       <p class="candidate-study">${candidate.year}</p>
     </div>
-    <img class="card-divider" src="/assets/8231d.svg" alt="" />
+    <img class="card-divider" src="./assets/8231d.svg" alt="" />
     <div class="candidate-summary">
       <p>${candidate.summary}</p>
     </div>
     <span class="read-profile">
       Read full profile
-      <img src="/assets/a03f5.svg" alt="" />
+      <img src="./assets/a03f5.svg" alt="" />
     </span>
   `
 
@@ -560,7 +560,7 @@ function openProfile(candidate, trigger) {
   const profileStatusSymbol = document.querySelector('#profile-status-symbol')
   profileStatusMark.classList.toggle('is-endorsed', candidate.endorsed)
   profileStatusMark.classList.toggle('not-endorsed', !candidate.endorsed)
-  profileStatusSymbol.src = `/assets/${candidate.endorsed ? 'ab01d.svg' : '7836e.svg'}`
+  profileStatusSymbol.src = `./assets/${candidate.endorsed ? 'ab01d.svg' : '7836e.svg'}`
   setProfileText('#profile-title', candidate.name)
   setProfileText('#profile-category', `${candidate.position} / CANDIDATE PROFILE`)
   setProfileText('#profile-study', `${candidate.year}`)
