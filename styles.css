@@ -417,6 +417,7 @@ img {
   width: min(700px, calc(100% - 48px));
   margin: 0 auto;
   padding-bottom: 64px;
+  font-family: 'Lora:Regular', Georgia, serif;
 }
 
 .credits img {
@@ -430,6 +431,10 @@ img {
   margin-top: 24px;
   font-family: 'Lora:Bold', Georgia, serif;
   font-size: 30px;
+}
+
+.credits h3 {
+  font-family: 'Lora:Bold', Georgia, serif;
 }
 
 .credits-list {
