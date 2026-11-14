@@ -690,6 +690,12 @@ sectionPicker.addEventListener('change', () => {
 let currentGuideSection = -1
 function updateGuidePosition() {
   const headerBottom = document.querySelector('#top-nav').getBoundingClientRect().bottom
+  const heroBottom = document.querySelector('.hero').getBoundingClientRect().bottom
+  const sidebarOffset = Math.max(0, heroBottom - headerBottom)
+  guideSidebar.style.setProperty('--sidebar-offset', `${sidebarOffset}px`)
+  // Ignore the scroll offset when finding the rail's resting position.
+  const sidebarTop = guideSidebar.getBoundingClientRect().top - sidebarOffset
+  guideSidebar.inert = sidebarTop + sidebarOffset >= window.innerHeight
   let activeIndex = 0
   guideSections.forEach(({ element }, index) => {
     if (element.getBoundingClientRect().top <= headerBottom + 48) activeIndex = index

@@ -715,6 +715,7 @@ img {
   background: #fff;
   font-family: 'Lora:Regular', Georgia, serif;
   scrollbar-width: thin;
+  translate: 0 var(--sidebar-offset, 100vh);
 }
 
 .sidebar-links { display: grid; border-left: 1px solid #ddd; }
@@ -745,7 +746,8 @@ img {
 .sidebar-mobile-label, #section-picker { display: none; }
 
 @media (min-width: 1200px) {
-  .site-shell { padding-left: 256px; }
+  .site-shell main { padding-left: 256px; }
+  .hero { margin-left: -256px; }
 }
 
 @media (max-width: 1199px) {
