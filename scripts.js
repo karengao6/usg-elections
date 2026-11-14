@@ -2,7 +2,7 @@ const presidentCandidates = [
   {
     id: 1,
     name: 'Marvel Jem Roth',
-    position: 'USG PRESIDENT',
+    position: 'PRESIDENT',
     photo: 'photos/marvel-jem-roth.jpeg',
     year: '2028',
     summary: 'Roth’s policy platform responds well to timely issues. Her plans to expand NJ Transit ticket discounts and establish universal menstrual product access are tangible goals that benefit a large proportion of the student body. Her proposals show a commitment to challenging the University in the wake of unpopular policies that have engendered widespread student dissatisfaction.',
@@ -22,7 +22,7 @@ const presidentCandidates = [
   {
     id: 2,
     name: 'Isaac Bernstein',
-    position: 'USG PRESIDENT',
+    position: 'PRESIDENT',
     photo: './photos/isaac-bernstein.jpg',
     year: '2028',
     summary: 'Bernstein, the current chair of the Academics Committee, has policy proposals that are diverse and commendable. He correctly identifies a gap in the Honor Committee and Committee on Discipline’s evidentiary standards. In an interview with the Editorial Board, Bernstein said that he plans to implement “FSI-like” activities to help students feel supported. We admire this focus on community-building and mentorship. However, we are concerned that Bernstein’s platform focuses on niche issues that are not pressing or relevant to wide swathes of campus.',
@@ -44,7 +44,7 @@ const vicePresidentCandidates = [
   {
     id: 1,
     name: 'Vivian Chang',
-    position: 'USG VICE PRESIDENT',
+    position: 'VICE PRESIDENT',
     photo: './photos/vivian-chang.jpeg',
     year: '2028',
     summary: 'The VP role has been historically flexible. A successful candidate, for this position especially, must have a good understanding of their goals and vision. Chang seems to have a strong plan for the position, understanding that one of the most important parts of the VP’s job is building relationships between the USG, the student body, and the administration. She was clear in an interview with the Editorial Board that she wants to serve as the “glue” between administrators and students.',
@@ -58,7 +58,7 @@ const vicePresidentCandidates = [
   {
     id: 2,
     name: 'Malcom Tafadzwa Dzimiri',
-    position: 'USG VICE PRESIDENT',
+    position: 'VICE PRESIDENT',
     photo: './photos/malcom-tafadzwa-dzimiri.jpg',
     year: '2028',
     summary: 'Dzimiri was previously a U-Councilor as well as the athletics senate initiative chair. In an interview with the editorial board, Dzimiri emphasized increased transparency between USG and the student body. He envisions a policy of open houses and direct-to-student communication.',
@@ -76,7 +76,7 @@ const treasurerCandidates = [
   {
     id: 1,
     name: 'Emi Ren',
-    position: 'USG TREASURER',
+    position: 'TREASURER',
     photo: './photos/emi-ren.JPG',
     year: '2029',
     summary: 'Ren’s platform highlights an important commitment to improving student involvement in the funding process. Especially given the current surplus of funds in USG, it’s important that the treasurer has a plan for disbursing money to student groups. We believe that, in particular, her focus on incorporating student voices into the funding allocation process will make sure that the USG budget can work for students. Ren wrote to the ‘Prince’ that she wanted to create “a clear set of guidelines sent to student leaders in advance so they understand why USG chooses to or chooses not to fund their projects.” Additionally, she accurately identifies that USG can and should play a role in improving student quality of life amidst budget cuts. Though we felt that some of her proposals, like including weekly expenditures in USG newsletters, may be redundant, her policies impressed us overall. Previous elected members of USG spoke highly of her judiciousness and commitment to accountability.',
@@ -90,7 +90,7 @@ const treasurerCandidates = [
   {
     id: 2,
     name: 'Joey Darbilli',
-    position: 'USG TREASURER',
+    position: 'TREASURER',
     photo: './photos/joey-darbilli.jpg',
     photoPosition: 'center 20%',
     year: '2028',
@@ -105,7 +105,7 @@ const studentLifeCandidates = [
     {
     id: 1,
     name: 'Emily Chen',
-    position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
+    position: 'UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
     photo: './photos/emily-chen.jpeg',
     year: '2028',
     summary: 'Chen’s proposals demonstrate a willingness to stand up to the University, which is particularly relevant in a moment where the University has passed unpopular policies. That said, her policies did not show a strong understanding of what the USLC role entails. She proposed policies that were unlikely to be under the purview of the committee, such as organizing student protests.',
@@ -116,7 +116,7 @@ const studentLifeCandidates = [
   {
     id: 2,
     name: 'Alpha Zhang',
-    position: 'USG UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
+    position: 'UNDERGRADUATE STUDENT LIFE COMMITTEE CHAIR',
     photo: './photos/alpha-zhang.jpg',
     photoPosition: 'center 30%',
     year: '2029',
@@ -131,7 +131,7 @@ const sustainabilityCandidates = [
     {
     id: 1,
     name: 'Joshua Knapp',
-    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
+    position: 'SUSTAINABILITY COMMITTEE CHAIR',
     photo: './photos/joshua-knapp.jpeg',
     year: '2030',
     summary: 'We believe that Knapp outlines a plan to partner with various existing campus organizations to make meaningful, actionable strides in sustainability goals. He proposes working with EcoReps to support the launch of a student-run clothing resale closet. Knapp also wants to collaborate with Campus Dining and local organizations to ensure surplus food from dining halls, for example, is redirected to community members. We think he balances individual incentives for sustainability, like energy conservation competitions, with more sweeping partnerships designed for substantial change.',
@@ -142,7 +142,7 @@ const sustainabilityCandidates = [
     {
     id: 2,
     name: 'Ethan Albright',
-    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
+    position: 'SUSTAINABILITY COMMITTEE CHAIR',
     photo: './photos/ethan-albright.JPG',
     year: '2030',
     summary: 'We are impressed by Albright’s clear policy ideas. We feel that his policy platform, while well-developed, is more narrow than Knapp’s and therefore a less comprehensive vision for the Sustainability Committee Chair role. For example, while Albright discusses opportunities for collaboration with existing campus organizations like EcoReps, he does not attach specific policy initiatives to those efforts.',
@@ -155,7 +155,7 @@ const sustainabilityCandidates = [
   {
     id: 3,
     name: 'Mira Quayle',
-    position: 'USG SUSTAINABILITY COMMITTEE CHAIR',
+    position: 'SUSTAINABILITY COMMITTEE CHAIR',
     photo: './photos/mira-quayle.jpg',
     year: '2030',
     summary: 'We are impressed with Quayle’s commitment to increasing the Sustainability Committee’s involvement in campus construction and food waste — areas where USG has potential to grow.',
@@ -171,7 +171,7 @@ const deiCandidates = [
   {
     id: 1,
     name: 'Angela Li',
-    position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
+    position: 'DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
     photo: './photos/angela-li.jpg',
     year: '2028',
     summary: 'Li currently serves as an active member of the DEI committee. On her platform, she lists a number of well-developed policies that would further her commitments to advocate for international students and make campus dining more inclusive of religious and cultural groups. She also expresses commitments to collaborating with affinity groups and seeking student input.',
@@ -184,7 +184,7 @@ const deiCandidates = [
   {
     id: 2,
     name: 'Nastasia Philip',
-    position: 'USG DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
+    position: 'DIVERSITY, EQUITY, AND INCLUSION COMMITTEE CHAIR',
     photo: './photos/nastasia-philip.jpg',
     year: '2029',
     summary: 'Philip’s platform and experience are similar to Li’s, focusing on menstrual product availability and inclusivity in campus dining. She also has innovative and unique ideas surrounding external scholarships and a USG-sponsored cultural tailgate. However, we feel her policies are less impactful than what the committee is capable of implementing.',
@@ -198,7 +198,7 @@ const mentalHealthCandidates = [
   {
     id: 1,
     name: 'Harry Levin',
-    position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
+    position: 'MENTAL HEALTH COMMITTEE CHAIR',
     photo: './photos/harry-levin.png',
     year: '2028',
     summary: `Levin is the only candidate with experience in the committee, and we are impressed by his efforts thus far. In his response to the Board’s questions, he highlighted his involvement in tasks like developing the Mental Health Task Force and creating a guide for CPS referrals. We also recognize his suggestion to note days on the calendar where people are more prone to experience mental health challenges. We appreciate his acknowledgement that factors other than academics can affect student mental health.`,
@@ -211,7 +211,7 @@ const mentalHealthCandidates = [
   {
     id: 2,
     name: 'Desiree Okonkwo',
-    position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
+    position: 'MENTAL HEALTH COMMITTEE CHAIR',
     photo: './photos/desiree-okonkwo.png',
     photoPosition: 'center 25%',
     year: '2030',
@@ -223,7 +223,7 @@ const mentalHealthCandidates = [
   {
     id: 3,
     name: 'Nandita Srikumar',
-    position: 'USG MENTAL HEALTH COMMITTEE CHAIR',
+    position: 'MENTAL HEALTH COMMITTEE CHAIR',
     photo: './photos/nandita-srikumar.jpg',
     photoPosition: 'center 10%',
     year: '2030',
@@ -440,7 +440,7 @@ const academicsCandidates = [
   {
     id: 1,
     name: 'Razvan Verde',
-    position: 'USG ACADEMICS CHAIR',
+    position: 'ACADEMICS COMMITTEE CHAIR',
     photo: './photos/razvan-verde.jpeg',
     photoPosition: 'center 15%',
     year: '2029',
@@ -457,7 +457,7 @@ const socialCandidates = [
   {
     id: 1,
     name: 'Mihir Tadeparti',
-    position: 'USG SOCIAL COMMITTEE CHAIR',
+    position: 'SOCIAL COMMITTEE CHAIR',
     photo: './photos/mihir-radeparti.jpg',
     year: '2029',
     summary: `In interviews with the Editorial Board, members of USG who have worked with Tadeparti said he collaborates well with class representatives. Further, they cited Tadeparti’s work in arranging meetings to advocate for concrete improvements, like efforts to introduce a takeout option in dining halls. We believe that Tadeparti’s ability to collaborate with members of various class years, as well as his focus on concrete change, will serve him in collecting student input and organizing social events.`,
@@ -474,7 +474,7 @@ const campusCommunityCandidates = [
   {
     id: 1,
     name: 'Anaya Willabus',
-    position: 'USG CAMPUS & COMMUNITY AFFAIRS COMMITTEE CHAIR',
+    position: 'CAMPUS & COMMUNITY AFFAIRS COMMITTEE CHAIR',
     photo: './photos/anaya-willabus.jpg',
     year: '2028',
     summary: `Willabus is the incumbent chair and has served on the committee since her freshman year, bringing impressive experience. She wants to use CCA to engage students with USG, and make community engagement opportunities as visible as possible through improved social media outreach.`,

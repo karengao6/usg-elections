@@ -590,6 +590,7 @@ img {
 }
 
 .legend {
+  font-family: 'Lora:Regular', Georgia, serif;
     display: flex;
     justify-content: center;
     align-items: center;
