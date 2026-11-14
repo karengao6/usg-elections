@@ -664,3 +664,68 @@ document.addEventListener('keydown', (event) => {
     closeProfile()
   }
 })
+
+// Keep navigation tied to the section crossing beneath the fixed header.
+const guideSidebar = document.querySelector('.section-sidebar')
+const guideLinks = guideSidebar.querySelector('.sidebar-links')
+const sectionPicker = document.querySelector('#section-picker')
+const guideSections = [
+  { id: 'top', label: 'Introduction', element: document.querySelector('.hero') },
+  ...Array.from(document.querySelectorAll('#candidates-menu a'), link => ({
+    id: link.hash.slice(1),
+    label: link.textContent.trim().replace(' Committee Chair', '').replace('Undergraduate Student Life', 'Student Life'),
+    element: document.querySelector(link.hash),
+  })),
+  { id: 'credits', label: 'Credits', element: document.querySelector('.credits') },
+]
+
+const sidebarAnchors = guideSections.map(({ id, label }) => {
+  const anchor = document.createElement('a')
+  anchor.href = `#${id}`
+  anchor.textContent = label
+  guideLinks.append(anchor)
+  const option = document.createElement('option')
+  option.value = id
+  option.textContent = label
+  sectionPicker.append(option)
+  return anchor
+})
+sectionPicker.addEventListener('change', () => {
+  document.getElementById(sectionPicker.value).scrollIntoView({ block: 'start' })
+  window.history.replaceState(null, '', `#${sectionPicker.value}`)
+})
+
+let currentGuideSection = -1
+function updateGuidePosition() {
+  const headerBottom = document.querySelector('#top-nav').getBoundingClientRect().bottom
+  let activeIndex = 0
+  guideSections.forEach(({ element }, index) => {
+    if (element.getBoundingClientRect().top <= headerBottom + 48) activeIndex = index
+  })
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight
+  const progress = scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0
+  if (progress >= 0.999 && window.scrollY > 0) activeIndex = guideSections.length - 1
+  if (activeIndex === currentGuideSection) return
+  currentGuideSection = activeIndex
+  sidebarAnchors.forEach((anchor, index) => {
+    if (index === activeIndex) anchor.setAttribute('aria-current', 'location')
+    else anchor.removeAttribute('aria-current')
+  })
+  sectionPicker.value = guideSections[activeIndex].id
+}
+
+let guideUpdatePending = false
+function scheduleGuideUpdate() {
+  if (guideUpdatePending) return
+  guideUpdatePending = true
+  requestAnimationFrame(() => {
+    guideUpdatePending = false
+    updateGuidePosition()
+  })
+}
+window.addEventListener('scroll', scheduleGuideUpdate, { passive: true })
+window.addEventListener('resize', scheduleGuideUpdate)
+window.addEventListener('load', scheduleGuideUpdate)
+new ResizeObserver(scheduleGuideUpdate).observe(document.querySelector('main'))
+guideSidebar.hidden = false
+updateGuidePosition()
